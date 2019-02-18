@@ -9,7 +9,8 @@ const logger = log4js.getLogger('system');
 
 let config;
 
-const defaultPath = path.resolve(os.homedir() + '/.ssmgr/default.yml');
+// const defaultPath = path.resolve(os.homedir() + '/.ssmgr/default.yml');
+const defaultPath = path.resolve(os.homedir() + '/.ssmgr/webgui.yml');
 let configFilePath = defaultPath;
 if(global.configFile) {
   if(fs.existsSync(path.resolve(global.configFile))) {
