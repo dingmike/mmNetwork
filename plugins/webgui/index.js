@@ -23,6 +23,7 @@ const bodyParser = require('body-parser');
 const compression = require('compression');
 const expressValidator = require('express-validator');
 const app = express();
+app.disable('x-powered-by');
 const cors = require('cors');
 
 app.set('trust proxy', 'loopback');
@@ -53,6 +54,11 @@ app.engine('.js', require('ejs').__express);
 app.set('view engine', 'html');
 app.set('views', path.resolve('./plugins/webgui/views'));
 
+// 删除xpoweredBy
+app.use(function (req, res, next) {
+    res.removeHeader("X-Powered-By");
+    next();
+})
 app.use('/libs', express.static(path.resolve('./plugins/webgui/libs')));
 app.use('/public', express.static(path.resolve('./plugins/webgui/public')));
 app.use('/public/views/skin', express.static(path.resolve(os.homedir(), './.ssmgr/skin')));
