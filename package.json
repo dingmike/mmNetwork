@@ -1,6 +1,6 @@
 {
   "name": "offline-manager",
-  "version": "0.30.23",
+  "version": "0.1.0",
   "description": "A offline manager tool for multi user and traffic control panel.",
   "main": "server.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "check": "eslint .",
     "fix": "eslint . --fix"
   },
-  "author": "Gu Yuteng <igyteng@gmail.com>",
+  "author": "Gu Yuteng <dingding@gmail.com>",
   "license": "GPL-3.0",
   "keywords": [
     "ssmgrown",
