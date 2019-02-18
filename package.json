@@ -1,7 +1,7 @@
 {
-  "name": "shadowsocks-manager",
-  "version": "0.30.22",
-  "description": "A shadowsocks manager tool for multi user and traffic control.",
+  "name": "offline-manager",
+  "version": "0.30.23",
+  "description": "A offline manager tool for multi user and traffic control.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -14,10 +14,9 @@
   "author": "Gu Yuteng <igyteng@gmail.com>",
   "license": "GPL-3.0",
   "keywords": [
-    "ssmgr",
-    "shadowsocks",
-    "manager",
-    "gfw"
+    "ssmgrown",
+    "off line",
+    "manager"
   ],
   "devDependencies": {
     "@babel/cli": "^7.1.5",
@@ -78,6 +77,6 @@
   },
   "homepage": "https://github.com/shadowsocks/shadowsocks-manager#readme",
   "bin": {
-    "ssmgr": "./bin/ssmgr"
+    "ssmgrown": "./bin/ssmgr"
   }
 }
