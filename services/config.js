@@ -10,7 +10,7 @@ const logger = log4js.getLogger('system');
 let config;
 
 // const defaultPath = path.resolve(os.homedir() + '/.ssmgr/default.yml');
-const defaultPath = path.resolve(os.homedir() + '/.ssmgr/webgui.yml');
+const defaultPath = path.resolve(os.homedir() + '/.ssmgr/webgui.yml');// 本地运行node server时配置文件默认成这个
 let configFilePath = defaultPath;
 if(global.configFile) {
   if(fs.existsSync(path.resolve(global.configFile))) {
