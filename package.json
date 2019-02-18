@@ -1,7 +1,7 @@
 {
   "name": "offline-manager",
   "version": "0.30.23",
-  "description": "A offline manager tool for multi user and traffic control.",
+  "description": "A offline manager tool for multi user and traffic control panel.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
