@@ -11,7 +11,7 @@
     "check": "eslint .",
     "fix": "eslint . --fix"
   },
-  "author": "Gu Yuteng <dingding@gmail.com>",
+  "author": "mikr<dingding@gmail.com>",
   "license": "GPL-3.0",
   "keywords": [
     "ssmgrown",
