@@ -93,7 +93,7 @@ app
     ($scope, $state, $interval, $timeout, homeApi, alertDialog, $localStorage, configManager) => {
       $scope.user = {};
       $scope.sendCodeTime = 0;
-      $scope.registerArgument = {url: 'http://www/baidu.com'};
+      $scope.registerArgument = {url: 'http://www.baidu.com'};
       $scope.sendCode = () => {
         alertDialog.loading().then(() => {
           return homeApi.sendCode($scope.user.email, $scope.home.refId);
