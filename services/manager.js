@@ -1,4 +1,3 @@
-/*
 const log4js = require('log4js');
 const logger = log4js.getLogger('system');
 
@@ -196,7 +195,7 @@ const send = async (data, options) => {
   }
 };
 
-/!*
+/*
 {
   command: 'add/del/list/pwd/flow/version/ip',
   port: 1234,
@@ -211,10 +210,10 @@ const send = async (data, options) => {
   port: '',
   password: '',
 }
- *!/
+ */
 exports.send = send;
-*/
-
+// new add file
+/*
 const log4js = require('log4js');
 const logger = log4js.getLogger('system');
 
@@ -412,7 +411,7 @@ const send = async (data, options) => {
     }
 };
 
-/*
+/!*
 {
   command: 'add/del/list/pwd/flow/version/ip',
   port: 1234,
@@ -427,5 +426,6 @@ const send = async (data, options) => {
   port: '',
   password: '',
 }
- */
+ *!/
 exports.send = send;
+*/
